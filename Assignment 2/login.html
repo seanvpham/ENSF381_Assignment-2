@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - LMS</title>
+    <style>
+        /* A. Header, Navigation, Footer (same as Homepage) */
+        header {
+            background-color: #004080; /* deep blue */
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+        }
+
+        header h1, header h2 {
+            color: white;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #003366; /* dark blue */
+            color: white;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Underline links when hovering */
+        }
+
+        footer {
+            background-color: #004080; /* deep blue */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* B. Login Form */
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #d4d4d4; /* light gray */
+            padding: 30px;
+            margin: 0 150px; /* left and right margin of 150px */
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+        form {
+            width: 100%;
+            max-width: 400px; /* Max width for form */
+        }
+
+        /* C. Input Fields */
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            background-color: #ffffe0; /* light yellow */
+            padding: 10px;
+            border: 3px solid #333333; /* dark grey border */
+            border-radius: 5px;
+            margin-bottom: 15px; /* Space between inputs */
+            box-sizing: border-box;
+        }
+
+        /* D. Login Button */
+        button[type="submit"] {
+            padding: 10px;
+            background-color: #008000; /* green */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #006600; /* darker green */
+        }
+
+        /* E. Forgot Password Link */
+        a {
+            color: #004080; /* deep blue */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* LMS Login title above form */
+        .login-title {
+            font-size: 28px;
+            color: #004080;
+            text-align: center;
+            margin-top: 30px; /* Space from top */
+        }
+
+        /* Spacing for form elements */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        /* Forgot password link positioning */
+        .forgot-password {
+            text-align: center;
+            margin-top: 10px; /* Space below form */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="logo.jpg" alt="LMS Logo">
+        <h1>LMS - Learning Management System</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <div>
+        <nav>
+            <a href="index.html">Homepage</a>
+        </nav>
+    </div>
+
+    <!-- LMS Login Title (Outside the grey box) -->
+    <h2 class="login-title">LMS Login</h2>
+
+    <!-- Main Content (Login Form) -->
+    <main>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password:</label>
+
+                <input type="password" id="password" name="password" required>
+            </div>
+             <button type="submit" formaction="course_view.html">Login</button>
+            <br><br>  
+            <div class="forgot-password">
+            <a href="#">Forgot Password?</a>
+            <br><br>
+            </div>
+        </form>
+    </main>
+    <br><br>
+
+    <!-- Forgot Password Link (Outside the grey box) -->
+ 
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 LMS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
