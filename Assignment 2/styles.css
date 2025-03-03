@@ -1,0 +1,206 @@
+/*Header, Navigation and Footer*/
+header {
+    background-color: #004080;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*Login*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.form-container {
+    background-color: #d4d4d4;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffe0;
+    padding: 10px;
+    border: 3px solid #333333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.login-btn {
+    padding: 10px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-btn:hover {
+    background-color: #006600;
+}
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.login-title {
+    color: #004080;
+    text-align: center;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.forgot-password {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/*Index*/
+main {
+    padding: 20px;
+}
+#about {
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+main.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d4d4;
+    padding: 30px;
+    margin: 0 150px;
+    border-radius: 30px;
+}
+
+/*Course View*/
+select {
+    background-color: #ffffe0;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.course-tile-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.course-tile {
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-tile img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 110%;
+
+}
+button.accept {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.accept:hover {
+    background-color: #265e28;
+}
+
+button.decline {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.decline:hover {
+    background-color: #821b1b;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section hr {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    padding: 10px;
+}

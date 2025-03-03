@@ -4,110 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMS Homepage</title>
-    <style>
-        /* A. Header */
-        header {
-            background-color: #004080; /* deep blue */
-            padding: 20px;
-            margin: 0;
-            display: flex;
-            justify-content: space-between; /* Align LMS logo and name on the left and right */
-            align-items: center;
-        }
-
-        header img {
-            width: 100px;
-            height: 100px;
-        }
-
-        header h1 {
-            color: white;
-            font-size: 24px;
-        }
-
-        /* B. Navigation Bar */
-        nav {
-            display: flex;
-            justify-content: space-evenly; /* Even spacing of navigation links */
-            background-color: #003366; /* dark blue */
-            color: white;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-        }
-
-        nav a:hover {
-            text-decoration: underline; /* Underline links when hovering */
-        }
-
-        /* C. Main Content */
-        main {
-            padding: 20px;
-        }
-
-        /* About LMS Section */
-        #about {
-            background-color: #d4d4d4; /* light gray */
-            text-align: center;
-            padding: 20px;
-            margin: 20px;
-        }
-
-        /* D. Footer */
-        footer {
-            background-color: #004080; /* deep blue */
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        /* Login Page Specific Styling */
-        /* Same header, navigation, and footer as the homepage */
-
-        main.login-form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #d4d4d4; /* light gray */
-            padding: 30px;
-            margin: 0 150px; /* left and right margin of 150px */
-            border-radius: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <img src="logo.jpg" alt="LMS Logo">
+        <img src="logo.jpg" alt="LMS Logo" style="width: 100px; height: 100px;">
         <h1>LMS - Learning Management System</h1>
     </header>
 
-    <!-- Navigation Bar -->
     <div>
         <nav>
-            <a href="login.html">Login</a>
-            <a href="leaderboard.html">Leaderboard</a>
+            <a href="login.html">Login</a> |
+            <a href="leaderboard.html">Leaderboard</a> |
             <a href="#about">About LMS</a>
         </nav>
     </div>
 
-    <!-- Main Content -->
     <main>
         <section id="about">
-            <h2 style = "color:#004080;">About LMS</h2>
+            <h2>About LMS</h2>
             <p>The Learning Management System (LMS) helps students and instructors manage courses, quizzes, and track performance efficiently.</p>
-            <p><b>Key Features:</b></p>
-            <p>- Enroll in courses</p>
-            <p>- Attempt quizzes</p>
-            <p>- View leaderboards</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Enroll in courses</li>
+                <li>Attempt quizzes</li>
+                <li>View leaderboards</li>
+            </ul>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 LMS. All rights reserved.</p>
     </footer>
