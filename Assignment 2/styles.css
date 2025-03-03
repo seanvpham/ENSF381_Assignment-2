@@ -54,7 +54,7 @@ footer {
     color:#004080;
 }
 
-.loginfields { 
+.logincontainer { 
     display: flex;
     flex-direction: column;
     background-color: lightgray;
@@ -66,11 +66,11 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0.3, 0.3); /*box shadow*/
 }
 
-.loginfields form {
+.logincontainer form {
     text-align: center;
 }
 
-.loginfields form input {
+.logincontainer form input {
     background-color: lightyellow;
     border: darkgrey 3px;
     border-radius: 5px;
