@@ -19,20 +19,19 @@
     </div>
     <main class="login">
         <h2>LMS Login</h2>
-        <div class="logincontainer">
             <form>
-                <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username" required><br><br>
-                
-                <label for="password">Password:</label><br>
-                <input type="password" id="password" name="password" required><br><br>
+                <div class="logincontainer">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+                    
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                </div>
+                <div class="login-btn">
+                    <button type="submit" formaction="course_view.html">Login</button><br><br>
+                </div>
             </form>
-        </div>
-        <div class="login-btn">
-            <form>
-                <button type="submit" formaction="course_view.html">Login</button><br><br>
-            </form>
-        </div>
+        
         <div class="forgotpassword">
             <a href="#">Forgot Password?</a>
         </div>

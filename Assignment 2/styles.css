@@ -66,17 +66,12 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0.3, 0.3); /*box shadow*/
 }
 
-.logincontainer form {
-    text-align: center;
+.logincontainer input{
+     background-color: lightyellow;
+     border-radius: 5px;
+     border: darkgrey 3px;
+     padding: 10px;
 }
-
-.logincontainer form input {
-    background-color: lightyellow;
-    border: darkgrey 3px;
-    border-radius: 5px;
-    padding: 10px;
-}
-
 .login-btn {
     text-align: center;
     margin-top: 30px;
