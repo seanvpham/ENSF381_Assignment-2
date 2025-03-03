@@ -203,7 +203,7 @@ main {
     color: white;
     padding: 7px;
     border: none;
-    margin-right: px;
+    margin-right: 5px;
     border-radius: 5px;
 }
 
@@ -221,3 +221,120 @@ main {
 .decline:hover {
     background-color: #821b1b;
 }
+
+/* Quiz */
+
+.banner img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.detail {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.detail h2 {
+    font-style: bold;
+    font-size: large;
+    color: #004080;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.questions-list button {
+    background-color: lightblue;
+    color: black;
+    padding: 7px;
+    border: darkgrey 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.questions-list button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.question-1 {
+    background-color: #cacaca;
+    padding: 20px;
+    width: 20%;
+    text-align: left;
+}
+
+.question-2 {
+    background-color: #cacaca;
+    padding: 10px;
+    width: 20%;
+    text-align: left;
+}
+
+
+.finish {
+    display: flex;
+    justify-content: center;
+}
+
+.finish button {
+    background-color: #D32F2F;
+    border: darkgrey 3px;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+
+}
+
+.finish button:hover {
+    background-color: #821b1b;
+    display:flex;
+}
+
+/* Leaderboard */
+
+.tableheader td{
+    background-color: #4CAF50;
+    color: white;
+    column-span: all;
+    font-size: 35px;
+}
+
+.leaderboard table {
+    border-collapse: collapse;
+    border: white;
+}
+
+.leaderboard img{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.first td {
+    background-color: gold;
+}
+
+.second td {
+    background-color: silver;
+}
+
+.third td {
+    background-color: #cd7f32;
+}
+
+.fourth td {
+    background-color: #f9f9f9;
+}
+
+.fifth td {
+    background-color: #e4e2e2;
+}
+
